@@ -22,3 +22,5 @@ The full traceback has been saved in /var/folders/1v/dvnfrhkx43x5lgg1810_2nmr000
 Please also report this if it was a user error, so that a better error message can be provided next time.
 A bug report can be filed in the tracker at <https://github.com/sphinx-doc/sphinx/issues>. Thanks!
 ```
+
+Sphinx was installed by cloning the repo, chaning to master branch, and running a `pip install .` inside a new virtual environment.
