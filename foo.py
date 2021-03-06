@@ -1,5 +1,5 @@
 import typing
 
 
-def make_tuple() -> typing.Tuple:
+def make_tuple() -> typing.Tuple[()]:
     return ()
