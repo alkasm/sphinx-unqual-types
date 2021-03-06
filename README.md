@@ -23,4 +23,4 @@ Please also report this if it was a user error, so that a better error message c
 A bug report can be filed in the tracker at <https://github.com/sphinx-doc/sphinx/issues>. Thanks!
 ```
 
-Sphinx was installed by cloning the repo, chaning to master branch, and running a `pip install .` inside a new virtual environment.
+Sphinx was installed by cloning the repo, checkout master branch, and running a `pip install .` inside a new virtual environment.
