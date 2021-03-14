@@ -1,3 +1,24 @@
+With https://github.com/sphinx-doc/sphinx/pull/8996 installed, sphinx generates a page with:
+
+```
+multiply_polynomial(p: Polynomial, value: int) -> Tuple[Polynomial, Polynomial]
+```
+
+which is great. However, using the `autodoc_typehints = "description"` in `conf.py` (which moves the type annotations next to the arguments in the description body of the function), sphinx instead generates
+
+```
+multiply_polynomial(p, value)
+    Parameters:     * p (numpy.polynomial.polynomial.Polynomial) –
+                    * value (int) –
+    Return type:    Tuple[numpy.polynomial.polynomial.Polynomial, numpy.polynomial.polynomial.Polynomial]
+```
+
+as it did before.
+
+---
+
+Previously...
+
 With latest Sphinx master installed and running `python -m sphinx . build` (or `sphinx-build . build`) in this folder:
 
 ```
