@@ -5,3 +5,8 @@ unqual-types
    :members:
    :undoc-members:
    :show-inheritance:
+
+.. automodule:: bar
+   :members:
+   :undoc-members:
+   :show-inheritance:
